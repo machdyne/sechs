@@ -17,7 +17,7 @@ it and programs it, through a small set of registers and a text console;
 pins 3 and 4 are the module's own.
 
 Sechs grew out of the [Zwölf](https://github.com/machdyne/zwolf) project.
-Zwölf modules such as the [LS10A](https://machdyne.com/product/ls10) are Sechs modules.
+Zwölf modules such as the [LS10A](https://machdyne.com/product/zwolf-ls10) are Sechs modules.
 
 ## Where it lives
 
