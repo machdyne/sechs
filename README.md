@@ -16,13 +16,14 @@ A controller on pins 1 and 2 finds every module, identifies it, controls
 it and programs it, through a small set of registers and a text console;
 pins 3 and 4 are the module's own.
 
-Sechs grew out of the [Zwölf](https://github.com/machdyne/zwolf) project.
-Zwölf modules such as the [LS10A](https://machdyne.com/product/zwolf-ls10) are Sechs modules.
+Sechs grew out of the [Zwölf](https://github.com/machdyne/zwolf) project. It drops the Zwölf VM requirements and focuses only on the interface.
+
+Zwölf modules such as the [LS10A](https://machdyne.com/product/zwolf-ls10) are Sechs-compatible modules.
 
 ## Where it lives
 
 The specification and everything that implements it are in the
-[Machdyne BASIC](https://github.com/machdyne/basic) repository:
+[Machdyne BASIC](https://github.com/machdyne/basic) repository, which is currently the only Sechs-compliant firmware available:
 
 - [docs/sechs.md](https://github.com/machdyne/basic/blob/main/docs/sechs.md):
   the specification
