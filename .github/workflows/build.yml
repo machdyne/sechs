@@ -1,0 +1,17 @@
+# The cores (freestanding), sechsctl and the tests, on every push and pull
+# request.
+
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: cores, sechsctl and tests (Linux)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: make test
+        run: make test
